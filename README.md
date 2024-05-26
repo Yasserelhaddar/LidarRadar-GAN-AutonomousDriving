@@ -92,6 +92,7 @@ This project aims to enhance the perception module of autonomous vehicles using 
 
 **Objective: Translate point cloud data between simulated and real-world domains.**
 **Key Files:**
+```plaintext
    1. chamfer_loss.py: Implements Chamfer loss function.
    2. config.py: Configuration of hyperparameters and model checkpoints.
    3. data_read.py: Reads and processes the dataset.
@@ -102,11 +103,12 @@ This project aims to enhance the perception module of autonomous vehicles using 
    8. generator_model.py, generator_model2.py: Defines the generator models.
    9. Generator.py: Main generator implementation.
    10. train.py: Training script for CycleGAN.
-
+```
 ### Conditional GAN
 
 **Objective: Generate realistic point cloud data conditioned on specific inputs.**
 **Key Files:**
+```plaintext
    1. chamfer_loss.py: Implements Chamfer loss function.
    2. config_CGAN.py, config.py: Configuration of hyperparameters and model checkpoints.
    3. dataset_CGAN.py, dataset.py: Processes the dataset for training.
@@ -116,12 +118,13 @@ This project aims to enhance the perception module of autonomous vehicles using 
    7. generator_CGAN.py: Defines the generator model.
    8. loss.py: Implements loss functions.
    9. train_CGAN.py, train.py: Training scripts for Conditional GAN.
-
+```
 
 ### PU-NET
 
 **Objective: Upsample point cloud data to improve resolution.**
 **Key Files:**
+```plaintext
    1. chamfer_loss.py: Implements Chamfer loss function.
    2. config.py: Configuration of hyperparameters and model checkpoints.
    3. dataset.py: Processes the dataset for training.
@@ -131,6 +134,7 @@ This project aims to enhance the perception module of autonomous vehicles using 
    7. model.py: Defines the PU-NET model.
    8. Repulsion_loss.py: Implements the repulsion loss function.
    9. train.py: Training script for PU-NET.
+```
 
 ### Autoencoder
 
@@ -138,6 +142,7 @@ This project aims to enhance the perception module of autonomous vehicles using 
 **Submodules:**
 
 ***PointNet Autoencoder:***
+```plaintext
    1. chamfer_loss.py: Implements Chamfer loss function.
    2. config.py: Configuration of hyperparameters and model checkpoints.
    3. dataset.py: Processes the dataset for training.
@@ -146,20 +151,22 @@ This project aims to enhance the perception module of autonomous vehicles using 
    6. loss.py: Implements loss functions.
    7. model.py, model1.py, old_model.py: Defines various versions of the PointNet model.
    8. train.py: Training script for PointNet autoencoder.
+```
 
 ***VoxelNet Autoencoder:***
+```plaintext
    1. convolutional_autoencoder_32.py, voxelnet_based_autoencoder.py, pointnet_based_autoencoder_old_model.py: Implementations of VoxelNet autoencoder models.
-
+```
 
 
 ## Installation and Usage
 
 ### Prerequisites
-
+```plaintext
    1. Python 3.8 or higher
    2. Required libraries: torch, numpy, scipy, matplotlib, plyfile
    3. Additional libraries as specified in each submodule's requirements.
-
+```
 ### Installation
 
 1. **Clone the repository**
